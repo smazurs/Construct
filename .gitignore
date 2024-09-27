@@ -1,5 +1,17 @@
-# Byte-compiled / optimized / DLL files
+# ---- Python Compiled Files ----
 __pycache__/
 *.py[cod]
-*.pyo
-*.pyd
+*$py.class
+
+# ---- Virtual Environments ----
+venv/
+env/
+ENV/
+
+# ---- Log Files ----
+*.log
+
+# ---- Temporary Files ----
+*.tmp
+*.swp
+*.swo
