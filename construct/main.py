@@ -9,7 +9,7 @@ if __name__ == "__main__":
     initialize_database()
 
     root = tk.Tk()
-    root.title("Construction Cost Tracker")
+    root.title("Construct")
 
     if AuthService.has_users():
         LoginUI(root)
