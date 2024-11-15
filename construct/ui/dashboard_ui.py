@@ -7,7 +7,7 @@ class DashboardUI:
         self.frame = tk.Frame(self.master)
         self.frame.pack()
         
-        tk.Label(self.frame, text="Welcome to the Construction Cost Tracker Dashboard!").grid(row=0, column=0, padx=10, pady=10)
+        tk.Label(self.frame, text="Welcome to the Construct Dashboard!").grid(row=0, column=0, padx=10, pady=10)
         
         tk.Button(self.frame, text="Create New Project", command=self.open_project_window).grid(row=1, column=0, padx=10, pady=10)
         
