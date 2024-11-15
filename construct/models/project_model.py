@@ -29,3 +29,4 @@ class ProjectModel:
         projects = cursor.fetchall()
         conn.close()
         return projects
+
