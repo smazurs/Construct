@@ -1,6 +1,6 @@
 import tkinter as tk
 from ui.project_ui import ProjectUI
-
+from ui.view_projects_ui import ViewProjectsUI
 class DashboardUI:
     def __init__(self, master):
         self.master = master
@@ -20,7 +20,8 @@ class DashboardUI:
         ProjectUI(self.master)
 
     def view_projects(self):
-        print("View existing projects (functionality to be implemented).")
+        self.frame.destroy()
+        ViewProjectsUI(self.master)
 
     def logout(self):
         self.frame.destroy()
