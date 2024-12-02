@@ -1,6 +1,7 @@
 import tkinter as tk
 from services.auth_service import AuthService
 from tkinter import messagebox
+from ui.login_ui import LoginUI
 
 class RegisterUI:
     def __init__(self, master):
