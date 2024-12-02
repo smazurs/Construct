@@ -58,9 +58,7 @@ class ViewProjectsUI:
         return ForecastService.forecast_project_cost(material_cost, labor_cost, equipment_cost, growth_rate, duration)
 
     def update_forecast(self):
-        for widget in self.frame.winfo_children():
-            widget.destroy()
-        self.__init__(self.master)
+        self.display_projects()
 
     def back_to_dashboard(self):
         self.frame.destroy()
